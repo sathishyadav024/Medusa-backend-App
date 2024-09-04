@@ -1,0 +1,8 @@
+{
+  "scripts": {
+	"run": "npm install",
+    "start": "medusa start",
+    "develop": "medusa develop",
+    "build": "medusa migrations run && medusa build"
+}
+}
